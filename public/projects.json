@@ -1,0 +1,41 @@
+[
+	{
+		"id": 1,
+		"name": "Expo24",
+		"description": "EXPO24 is a web application for showcasing the final year projects of the third-year students at Erasmushogeschool. The application provides information about the event, including general details, reasons to attend, and an interactive section where users can sign in to participate.",
+		"codeLanguage": ["React, ", "CSS, ", "JavaScript, ", "Express"],
+		"image": "project1.jpg",
+		"githubLink": "https://github.com/KarstenVerherstraeten/Expo24",
+		"year": "2024",
+        "from": "Jun 4",
+		"to": "Jun 21 2024 " ,
+		"GroupSize": "4"
+	},
+	{
+		"id": 2,
+		"name": "Rollercoaster Tycoon",
+		"description": "Kotlin, Vue.js",
+		"codeLanguage": "Kotlin, Vue.js",
+		"image": "project2.jpg",
+		"url": "https://www.google.com",
+		"year": "2024"
+	},
+	{
+		"id": 3,
+		"name": "GameWatchers",
+		"description": "Laravel",
+		"codeLanguage": "Laravel",
+		"image": "project3.jpg",
+		"url": "https://www.google.com",
+		"year": "2024"
+	},
+	{
+		"id": 4,
+		"name": "ChargeFinder",
+		"description": "This is a project",
+		"codeLanguage": "SWIFT",
+		"image": "project4.jpg",
+		"url": "https://www.google.com",
+		"year": "2024"
+	}
+]

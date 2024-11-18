@@ -1,0 +1,107 @@
+[
+	{
+		"name": "Laravel",
+		"level": 2,
+		"image": "/skillIcons/laravel.svg"
+	},
+    {
+        "name": "JavaScript",
+        "level": 4,
+        "image": "/skillIcons/JS.svg"
+    },
+    {
+        "name": "Html",
+        "level": 4,
+        "image": "/skillIcons/html.svg"
+    },
+    {
+        "name": "CSS",
+        "level": 4,
+        "image": "/skillIcons/css.svg"
+    },
+    {
+        "name": "SQL",
+        "level": 3,
+        "image": "/skillIcons/sql.svg"
+    },
+    {
+        "name": "MongoDB",
+        "level": 2,
+        "image": "/skillIcons/mongodb.svg"
+    },
+    {
+        "name": "Node.js",
+        "level": 3,
+        "image": "/skillIcons/node.svg"
+    },
+    {
+        "name": "Vue.js",
+        "level": 2,
+        "image": "/skillIcons/vue.svg"
+    },
+    {
+        "name": "React",
+        "level": 3,
+        "image": "/skillIcons/react.svg"
+    },
+    {
+        "name": "Swift",
+        "level": 2,
+        "image": "/skillIcons/swift.svg"
+    },
+    {
+        "name": "Kotlin",
+        "level": 2,
+        "image": "/skillIcons/kotlin.svg"
+    },
+    {
+        "name": "SCRUM",
+        "level": 3,
+        "image": "/path_to_image"
+    },
+    {
+        "name": "Agile",
+        "level": 3,
+        "image": "/path_to_image"
+    },
+    {
+        "name": "Git",
+        "level": 1,
+        "image": "/skillIcons/git.svg"
+    },
+    {
+        "name": "Firebase",
+        "level": 1,
+        "image": "/skillIcons/firebase.svg"
+    },
+    {
+        "name": "Postman",
+        "level": 2,
+        "image": "/skillIcons/postman.svg"
+    },
+    {
+        "name": "Office 365",
+        "level": 3,
+        "image": "/skillIcons/microsoft"
+    },
+    {
+        "name": "Google Workspace",
+        "level": 2,
+        "image": "/path_to_image"
+    },
+    {
+        "name": "Trello",
+        "level": 2,
+        "image": "/skillIcons/trello.svg"
+    },
+    {
+        "name": "Figma",
+        "level": 3,
+        "image": "/skillIcons/Figma.svg"
+    },
+    {
+        "name": "Adobe XD",
+        "level": 3,
+        "image": "/skillIcons/Adobe_XD.svg"
+    }
+]
