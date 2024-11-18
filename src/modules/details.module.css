@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "Mono Pl";
+	src: url(../assets/fonts/CascadiaMonoPL-Regular.otf);
+}
+
+.DetailedView{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px 100px;
+}
+
+.DetailedView p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+ 
+}
+
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+}
+
+.Title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+
+.details{
+    width: 300px;
+}
+
+.info p{
+margin-top: 0px;
+}
+
+
+.gitURL{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #74C5BC;
+    font-family: 'mono pl';
+}

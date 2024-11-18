@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "Mono Pl";
+	src: url(../assets/fonts/CascadiaMonoPL-Regular.otf);
+}
+
+.Introduction {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #74C5BC;
+    padding: 0px 100px;
+    justify-content: space-evenly;
+}
+
+.Title{
+    color: #000000;
+    font-family: "Mono Pl";
+    font-size: 16px;
+    text-align: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+.Title button{
+    background-color: none;
+}
+.Header{
+    color: #000000;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.Text{
+width: 80%;
+margin-bottom: 50px;
+}
+
+.Text p{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+
+.Side{
+    margin-right: 5%;
+}
+
+.sidePiece p, ul, li a{
+    width: 230px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    
+}
+

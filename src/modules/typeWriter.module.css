@@ -1,0 +1,34 @@
+@font-face {
+	font-family: "Mono Pl";
+	src: url(../assets/fonts/CascadiaMonoPL-Regular.otf);
+}
+
+.header{
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.Text{
+	color: #74C5BC;
+	font-family: "Mono Pl";
+	font-size: 3rem;
+}
+
+
+
+@media (max-width: 768px) {
+	.introText {
+		font-size: 2rem; /* Smaller font size for tablet or smaller screens */
+		margin: 40px 50px; /* Adjust margins for smaller screens */
+	}
+}
+
+@media (max-width: 480px) {
+	.introText {
+		font-size: 1.5rem; /* Even smaller font size for mobile devices */
+		margin: 20px 20px;
+	}
+}

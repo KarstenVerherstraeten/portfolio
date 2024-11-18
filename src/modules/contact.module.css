@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Mono Pl";
+	src: url(../assets/fonts/CascadiaMonoPL-Regular.otf);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.contact p{
+    color: #74C5BC;
+    font-family: "Mono Pl";
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.contact input{
+  background: none;
+    border: none;
+    border-bottom: 2px solid #74C5BC;
+    width: 250Px;
+    text-align: center;
+    font-family: "Mono Pl";
+    color: white;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    
+   
+}
+
+textarea{
+    background: none;
+    border: 2px solid #74C5BC;
+    width: 250Px;
+    height: 100px;
+    max-height: 190px;
+    text-align: center;
+    font-family: "Mono Pl";
+    color: white;
+}
+
+.contact input::placeholder{
+    color: white;
+    font-family: "Mono Pl";
+    font-weight: 400;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements inside the form */
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.rigth{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+form button{
+    background: none;
+    border-style: none;
+    border-bottom: 2px solid #74C5BC;
+    color: white;
+    font-family: "Mono Pl";
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
