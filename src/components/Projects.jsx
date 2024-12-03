@@ -36,7 +36,8 @@ function Projects() {
 				<p>Projects</p>
 			</div>
 
-			<table>
+		<div className={style.tableWrapper}>
+		<table>
 				<tr>
 					<th>Name</th>
 					<th>Language</th>
@@ -59,6 +60,8 @@ function Projects() {
 			<button onClick={toggleProjects}>
 				{showMore ? "Show more" : "Show less"}
 			</button>
+		</div>
+			
 		</div>
 	);
 }
