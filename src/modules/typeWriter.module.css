@@ -19,6 +19,7 @@
 
 
 
+
 @media (max-width: 768px) {
 	.introText {
 		font-size: 2rem; /* Smaller font size for tablet or smaller screens */
@@ -30,5 +31,9 @@
 	.introText {
 		font-size: 1.5rem; /* Even smaller font size for mobile devices */
 		margin: 20px 20px;
+	}
+
+	.Text{
+		font-size: 1.5rem;
 	}
 }
