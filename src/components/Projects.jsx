@@ -38,7 +38,7 @@ function Projects() {
 
 			<table>
 				<tr>
-					<th>Project</th>
+					<th>Name</th>
 					<th>Language</th>
 					<th>Year</th>
 					<th>Details</th>
