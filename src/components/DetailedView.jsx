@@ -64,6 +64,22 @@ function DetailedView() {
 				>
 					view project on github
 				</a>
+
+				<div className={style.skills}>
+
+					<div className={style.hardSkills}>
+						<h3>Hard Skills</h3>
+						<ul>
+							{project.hardSkills.map((skill) => (
+								<li key={skill}>{skill}</li>
+							))}
+						</ul>
+					</div>
+
+					<div className={style.softSkills}>
+
+					</div>
+				</div>
 			</div>
 		</>
 	);
