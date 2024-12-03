@@ -26,6 +26,7 @@ table {
     font-weight: lighter;
 }
 
+
 th {
    text-align: left;
 }
@@ -43,13 +44,27 @@ th, td {
 }
 
 
-.project div button{
+button{
     background: none;
-    border: 2px solid #74C5BC;
+    border-style: none;
+    border-bottom: 2px solid #74C5BC;
     color: white;
     font-family: "Mono Pl";
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 40px;
     padding: 10px;
     cursor: pointer;
+   
+}
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 480px) {
+    .Projects {
+        padding: 0px 40px;
+    }
 }

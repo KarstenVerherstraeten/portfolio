@@ -65,3 +65,11 @@
   .unfilled {
     background-color: #D9D9D9; /* Adjust this to match the unfilled bar color */
   }
+
+
+
+@media (max-width: 480px) {
+  .Skills {
+      padding: 0px 40px;
+  }
+}

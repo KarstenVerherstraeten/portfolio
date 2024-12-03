@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 .contact p{
@@ -88,4 +88,26 @@ form button{
     margin-top: 40px;
     padding: 10px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left{
+        margin-right: 0px;
+    }
 }

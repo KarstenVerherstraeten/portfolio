@@ -81,3 +81,30 @@ margin-bottom: 50px;
     text-decoration: none;
     
 }
+
+@media (max-width: 768px){
+  
+}
+
+
+@media (max-width: 480px){
+
+    .Introduction{
+        padding: 0px 40px;
+    }
+   .Title{
+    margin-top: 0px;
+   }
+
+   .Header{
+    font-size: 25px;
+   }
+
+   .Text{
+    width: 100%;
+   }
+
+   .sidePiece{
+    display: none;
+   }
+}
