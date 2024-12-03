@@ -3,34 +3,36 @@
 	src: url(../assets/fonts/CascadiaMonoPL-Regular.otf);
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     min-height: 40vh;
+    background-color: #74C5BC;
+    padding: 0px 100px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
 }
 
-.contact p{
-    color: #74C5BC;
+.Title{
+    color: #000000;
     font-family: "Mono Pl";
-    font-size: 32px;
-    text-align: center;
-    align-items: center;
+    font-size: 16px;
+    text-align: left;
+    align-items: left;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
 }
 
 
 .contact input{
   background: none;
     border: none;
-    border-bottom: 2px solid #74C5BC;
+    border-bottom: 2px solid #000000;
     width: 250Px;
     text-align: center;
     font-family: "Mono Pl";
-    color: white;
+    color: black;
     padding-bottom: 15px;
     margin-top: 20px;
     
@@ -39,17 +41,17 @@
 
 textarea{
     background: none;
-    border: 2px solid #74C5BC;
+    border: 2px solid #000000;
     width: 250Px;
     height: 100px;
     max-height: 190px;
     text-align: center;
     font-family: "Mono Pl";
-    color: white;
+    color: black;
 }
 
 .contact input::placeholder{
-    color: white;
+    color: black;
     font-family: "Mono Pl";
     font-weight: 400;
 }
@@ -81,8 +83,8 @@ textarea{
 form button{
     background: none;
     border-style: none;
-    border-bottom: 2px solid #74C5BC;
-    color: white;
+    border-bottom: 2px solid #000000;
+    color: black;
     font-family: "Mono Pl";
     font-size: 20px;
     margin-top: 40px;

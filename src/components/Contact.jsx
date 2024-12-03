@@ -30,8 +30,10 @@ const ContactForm = () => {
 		}
 	};
 	return (
-		<div className={style.contact}>
-			<p>Contact me</p>
+		<div id="Contact" className={style.contact}>
+			<div className={style.Title}>
+				<p>Contact me</p>
+			</div>
 
 			<form onSubmit={handleSubmit}>
 				<div className={style.form}>
@@ -66,7 +68,7 @@ const ContactForm = () => {
 					<i
 						className="fa fa-paper-plane"
 						aria-hidden="true"
-						style={{ color: "#74c5bc" }}
+						style={{ color: "#000000" }}
 					></i>
 				</button>
 			</form>
