@@ -2,7 +2,7 @@ import style from "../modules/introduction.module.css";
 
 function Introduction() {
 	return (
-		<div id="Introduction" className={style.Introduction}>
+		<div id="AboutMe" className={style.Introduction}>
 			<div className={style.Title}>
 				<p>Introduction</p>
 			</div>

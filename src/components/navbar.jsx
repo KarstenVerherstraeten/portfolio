@@ -12,7 +12,7 @@ function Navbar() {
             <p>-</p>
             <a href="#Skills">Skills</a>
             <p>-</p>
-            <a href="#Introduction">Introduction</a>
+            <a href="#AboutMe">Introduction</a>
             <p>-</p>
             <a href="#Contact">Contact</a>
             </div>
