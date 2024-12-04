@@ -6,6 +6,7 @@
 .header{
 	height: 85vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	
@@ -15,6 +16,14 @@
 	color: #74C5BC;
 	font-family: "Mono Pl";
 	font-size: 3rem;
+}
+
+.IntroText{
+	color: #74C5BC;
+	font-family: "Mono Pl";
+	font-size: 1rem;
+	margin: 40px 100px;
+	
 }
 
 

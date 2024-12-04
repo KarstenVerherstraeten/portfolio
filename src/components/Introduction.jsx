@@ -7,13 +7,13 @@ function Introduction() {
 				<p>Introduction</p>
 			</div>
 
-			<div className={style.Header}>
+			{/* <div className={style.Header}>
 				<p>
 					I am a highly motivated 21-year-old student currently enrolled at
 					Erasmushogeschool Brussel, pursuing a Bachelors degree in Multimedia &
 					Creative Technologies.
 				</p>
-			</div>
+			</div> */}
 
 			<div className={style.Content}>
 				<div>
