@@ -16,7 +16,6 @@ function Home() {
 			<Skills />
 			<Introduction />
 			<Contact />
-			<Footer />
 		</>
 	);
 }
