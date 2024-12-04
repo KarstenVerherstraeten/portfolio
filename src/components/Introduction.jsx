@@ -4,16 +4,8 @@ function Introduction() {
 	return (
 		<div id="AboutMe" className={style.Introduction}>
 			<div className={style.Title}>
-				<p>Introduction</p>
+				<p>About me</p>
 			</div>
-
-			{/* <div className={style.Header}>
-				<p>
-					I am a highly motivated 21-year-old student currently enrolled at
-					Erasmushogeschool Brussel, pursuing a Bachelors degree in Multimedia &
-					Creative Technologies.
-				</p>
-			</div> */}
 
 			<div className={style.Content}>
 				<div>
