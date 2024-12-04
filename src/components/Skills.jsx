@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import style from "../modules/skills.module.css";
 
+
 function Skills() {
   const [skills, setSkills] = useState([]); // Holds fetched skills data
-  const [sortLevel, setSortLevel] = useState("high-to-low"); // Default: Level High to Low
-  const [sortAlpha, setSortAlpha] = useState("a-z"); // Default: Alphabetical A-Z
   const [searchTerm, setSearchTerm] = useState(""); // For skill search
+  const [visibleSkills, setVisibleSkills] = useState(10); // Number of visible skills
 
   useEffect(() => {
     fetch("/skills.json")
@@ -26,21 +26,22 @@ function Skills() {
     .filter((skill) =>
       skill.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
-    .sort((a, b) => {
-        return b.level - a.level; // Level High to Low
-       
-    });
+    .sort((a, b) => b.level - a.level); // Level High to Low
+
+  const handleShowMore = () => {
+    setVisibleSkills((prevVisibleSkills) => prevVisibleSkills + 10);
+  };
+
+  const handleShowLess = () => {
+    setVisibleSkills(10);
+  };
 
   return (
     <div id="Skills" className={style.Skills}>
       <div className={style.Title}>
         <p>Skills</p>
-        
       </div>
-      
-      
       <div className={style.Search}>
-        {/* Search Bar */}
         <div className={style.FilterBox}>
           <label htmlFor="search">Search: </label>
           <input
@@ -54,7 +55,7 @@ function Skills() {
         </div>
       </div>
       <div className={style.skillList}>
-        {filteredSkills.map((skill, index) => (
+        {filteredSkills.slice(0, visibleSkills).map((skill, index) => (
           <div className={style.skill} key={index}>
             <img className={style.skillImg} src={skill.image} alt={skill.name} />
             <div>
@@ -75,6 +76,15 @@ function Skills() {
           </div>
         ))}
       </div>
+      {filteredSkills.length > 10 && (
+        <div className={style.showMore}>
+          {visibleSkills < filteredSkills.length ? (
+            <button onClick={handleShowMore}>Show More</button>
+          ) : (
+            <button onClick={handleShowLess}>Show Less</button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
