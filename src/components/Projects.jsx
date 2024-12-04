@@ -36,32 +36,34 @@ function Projects() {
 				<p>Projects</p>
 			</div>
 
-		<div className={style.tableWrapper}>
-		<table>
-				<tr>
-					<th>Name</th>
-					<th>Language</th>
-					<th>Year</th>
-					<th>Details</th>
-				</tr>
+			<div className={style.ProjectCards}>
+			{projects.slice(0, visibleProjects).map((project, index) => {
+				// Dynamically import the image
+				const projectImage = project.image
+					? require(`../assets/ProjectBanners/${project.image}`)
+					: require("../assets/ProjectBanners/placeholder.png");
 
-				{projects.slice(0, visibleProjects).map((project, index) => (
-					<tr key={index}>
-						<td>{project.name}</td>
-						<td>{project.codeLanguage}</td>
-						<td>{project.year}</td>
-						<td>
-							<Link to={`/detailedView/${project.id}`} className={style.projectLink}>Show More</Link>
-						</td>
-					</tr>
-				))}
-			</table>
+				return (
+					<Link
+						to={`/detailedView/${project.id}`}
+						className={style.projectLink}
+						key={index}
+					>
+						<div className={style.Project}>
+							<img src={projectImage} alt={project.name} />
+							<p>{project.name}</p>
+							<p>{project.codeLanguage}</p>
+							<p>{project.year}</p>
+						</div>
+					</Link>
+				);
+			})}
+			</div>
+			
 
 			<button onClick={toggleProjects}>
 				{showMore ? "Show more" : "Show less"}
 			</button>
-		</div>
-			
 		</div>
 	);
 }
