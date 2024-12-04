@@ -6,6 +6,7 @@ p{
 	flex-direction: column;
 	min-height: 100vh;
 	padding: 0px 100px;
+	margin-bottom: 50px;
 }
 
 .Title {
