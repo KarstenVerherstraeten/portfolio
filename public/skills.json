@@ -1,9 +1,5 @@
 [
-	{
-		"name": "Laravel",
-		"level": 2,
-		"image": "/skillIcons/laravel.svg"
-	},
+
     {
         "name": "JavaScript",
         "level": 4,
@@ -23,6 +19,11 @@
         "name": "SQL",
         "level": 3,
         "image": "/skillIcons/sql.svg"
+    },
+    {
+        "name": "Figma",
+        "level": 3,
+        "image": "/skillIcons/Figma.svg"
     },
     {
         "name": "MongoDB",
@@ -50,20 +51,21 @@
         "image": "/skillIcons/swift.svg"
     },
     {
+        "name": "Python",
+        "level": 2,
+        "image": "/skillIcons/python.svg"
+    },
+    {
         "name": "Kotlin",
         "level": 2,
         "image": "/skillIcons/kotlin.svg"
     },
     {
-        "name": "SCRUM",
-        "level": 3,
-        "image": "/path_to_image"
-    },
-    {
-        "name": "Agile",
-        "level": 3,
-        "image": "/path_to_image"
-    },
+		"name": "Laravel",
+		"level": 2,
+		"image": "/skillIcons/laravel.svg"
+	},
+   
     {
         "name": "Git",
         "level": 1,
@@ -80,24 +82,9 @@
         "image": "/skillIcons/postman.svg"
     },
     {
-        "name": "Office 365",
-        "level": 3,
-        "image": "/skillIcons/microsoft"
-    },
-    {
-        "name": "Google Workspace",
-        "level": 2,
-        "image": "/path_to_image"
-    },
-    {
         "name": "Trello",
         "level": 2,
         "image": "/skillIcons/trello.svg"
-    },
-    {
-        "name": "Figma",
-        "level": 3,
-        "image": "/skillIcons/Figma.svg"
     },
     {
         "name": "Adobe XD",
