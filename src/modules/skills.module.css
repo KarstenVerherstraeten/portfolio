@@ -76,7 +76,32 @@
     background-color: #555555; /* Darker shade for better contrast */
 }
 
+.Search{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding: 0px 100px;
+}
 
+.FilterBox label {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.FilterBox input {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #181516;
+    border-style: none;
+    border-bottom: 1px solid #74C5BC;
+    padding: 5px;
+    margin-right: 10px;
+}
 
 @media (max-width: 480px) {
   .Skills {
