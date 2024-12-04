@@ -23,6 +23,12 @@ function Head() {
 					Erasmushogeschool Brussel, pursuing  a Bachelors degree<br /> in Multimedia &
 					Creative Technologies.</p>
 			</div>
+
+			<div className={style.buttons}>
+				<a href="#Projects"><button>Projects</button></a>
+				<a href="#AboutMe"><button>About me</button></a>
+				
+			</div>
 		</div>
 	);
 }
