@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"name": "Expo24",
-		"description": "EXPO24 is a comprehensive web application designed to showcase the final year projects of third-year students at Erasmushogeschool. This platform serves as a virtual exhibition, providing detailed information about the event, including its objectives, schedule, and highlights. Users can explore various projects, each accompanied by in-depth descriptions, images, and the technologies used. The application also features an interactive section where attendees can sign in to participate in live demonstrations, Q&A sessions, and networking opportunities. Additionally, EXPO24 offers resources for students and visitors, such as event maps, speaker bios, and downloadable materials. The goal of EXPO24 is to create an engaging and informative experience that highlights the innovative work of the students and fosters connections within the academic and professional communities.",
+		"description": "EXPO24 is an innovative web application that transforms the traditional showcase of final-year projects by third-year students at Erasmushogeschool into a dynamic and immersive virtual exhibition. The platform is designed to provide a seamless experience for attendees, offering comprehensive details about the event, including its purpose, schedule, and key highlights. Visitors can explore a diverse array of student projects, each presented with rich content, including detailed descriptions, high-quality images, and a breakdown of the technologies utilized. An interactive section allows attendees to sign in and actively engage in live demonstrations, participate in Q&A sessions, and network with peers, industry professionals, and academics.Beyond project showcases, EXPO24 serves as a valuable resource hub, offering features such as event maps, speaker profiles, and downloadable materials to enhance the attendee experience. By fostering meaningful connections and celebrating innovation, EXPO24 aims to bridge the gap between academia and industry, spotlighting the creativity and technical expertise of Erasmushogeschool students while inspiring collaboration and professional growth.",
 		"codeLanguage": ["React, ", "CSS, ", "JavaScript, ", "Express"],
 		"image": "Expo24.png",
 		"images": ["Expo24.png", "Expo24.png", "Expo24.png", "Expo24.png"],
@@ -17,15 +17,22 @@
 	{
 		"id": 2,
 		"name": "Rollercoaster Tycoon",
-		"description": "Kotlin, Vue.js",
-		"codeLanguage": "Kotlin, Vue.js",
-		"url": "https://www.google.com",
-		"year": "2024"
+		"description": "Rollercoaster Tycoon is a project where i learned to combine kotlin (sprinboot) with vue.js as my frontend framework. This was challenging since this was one of the first times i used kotloin springboot. The results were amazing and i learned a lot from this project.",
+		"codeLanguage": ["kotlin, ", "Vue.js"],
+		"image": "Expo24.png",
+		"images": ["Expo24.png", "Expo24.png", "Expo24.png", "Expo24.png"],
+		"githubLink": "https://www.google.com",
+		"year": "2024",
+		"from": "Jun 4",
+		"to": "Jun 21 2024 " ,
+		"GroupSize": "2",
+		"role": "Full stack Developer",
+		"skills": ["kotlin, ", "Vue.js"]
 	},
 	{
 		"id": 3,
 		"name": "GameWatchers",
-		"description": "Laravel",
+		"description": "Gamewatchers was my first laravel project, i first learned the basics of PHP before quickly turning to laravel using its blade templating engine. Its a place to watch or find al your game related information. In general i liked to work with laravel and i came quickly to a nice result.",
 		"codeLanguage": "Laravel",
 		"url": "https://www.google.com",
 		"year": "2024"
@@ -33,7 +40,7 @@
 	{
 		"id": 4,
 		"name": "ChargeFinder",
-		"description": "This is a project",
+		"description": "ChargeFinder is a one of Swift project, its a place for electric car drivers to find charging stations. It does have a map where you can see all the charging stations in your area. You have a profile with waze like achievements once you have driven serctain miles, charged X amount and more. Its a nice starting point of my swift experience and wil probaly use it again in one of my future projects.",
 		"codeLanguage": "SWIFT",
 		"url": "https://www.google.com",
 		"year": "2024"
