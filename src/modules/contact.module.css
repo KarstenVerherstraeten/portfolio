@@ -101,14 +101,21 @@ form button{
 }
 
 @media (max-width: 480px) {
+    .contact {
+        padding: 0px 40px;
+        padding-bottom: 40px;
+    }
     
     .form{
         display: flex;
         flex-direction: column;
 
     }
-
     .left{
         margin-right: 0px;
+    }
+
+ textarea{
+        margin-top: 40px;
     }
 }
