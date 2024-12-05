@@ -95,7 +95,6 @@ function DetailedView() {
 					<div className={style.left}>
 						<div className={style.top}>
 							<h2 className={style.Title}>{project.name}</h2>
-							<div className={style.info}></div>
 							<div className={style.info}>
 								<div className={style.date}>
 									<p>

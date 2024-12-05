@@ -160,3 +160,70 @@ i{
 .nextButton {
 	right: 10px;
 }
+
+@media (max-width: 480px){
+    .DetailedView{
+        padding: 0px 40px;
+    }
+.detailsWrapper{
+  display: flex;
+  flex-direction: column-reverse
+
+
+}
+    .Title{
+        font-size: 1.5rem;
+    }
+    .gitURL{
+        font-size: 1rem;
+        width: 250px;
+    }
+    .skills h3 {
+        font-size: 14px;
+    }
+    .skillItem {
+        padding: 10px 10px;
+    }
+    .skillIcon {
+        width: 30px;
+        height: 30px;
+    }
+    .skillItem span {
+        font-size: 16px;
+    }
+    .viewMoreButton {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+
+    .right{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .left{
+      width: 100%;
+    }
+
+    .projectImage {
+        max-width: 100%;
+        height: auto;
+    }
+    .prevButton,
+    .nextButton {
+        font-size: 1.5rem;
+    }
+
+    .skills ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
