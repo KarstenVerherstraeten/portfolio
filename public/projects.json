@@ -2,21 +2,23 @@
 	{
 		"id": 1,
 		"name": "Expo24",
-		"description": "EXPO24 is a web application for showcasing the final year projects of the third-year students at Erasmushogeschool. The application provides information about the event, including general details, reasons to attend, and an interactive section where users can sign in to participate.",
+		"description": "EXPO24 is a comprehensive web application designed to showcase the final year projects of third-year students at Erasmushogeschool. This platform serves as a virtual exhibition, providing detailed information about the event, including its objectives, schedule, and highlights. Users can explore various projects, each accompanied by in-depth descriptions, images, and the technologies used. The application also features an interactive section where attendees can sign in to participate in live demonstrations, Q&A sessions, and networking opportunities. Additionally, EXPO24 offers resources for students and visitors, such as event maps, speaker bios, and downloadable materials. The goal of EXPO24 is to create an engaging and informative experience that highlights the innovative work of the students and fosters connections within the academic and professional communities.",
 		"codeLanguage": ["React, ", "CSS, ", "JavaScript, ", "Express"],
-		"image": "project1.jpg",
+		"image": "Expo24.png",
+		"images": ["Expo24.png", "Expo24.png", "Expo24.png", "Expo24.png"],
 		"githubLink": "https://github.com/KarstenVerherstraeten/Expo24",
 		"year": "2024",
         "from": "Jun 4",
 		"to": "Jun 21 2024 " ,
-		"GroupSize": "4"
+		"GroupSize": "4",
+		"role": "Frontend Developer",
+		"skills": ["React, ", "CSS, ", "JavaScript, ", "Express"]
 	},
 	{
 		"id": 2,
 		"name": "Rollercoaster Tycoon",
 		"description": "Kotlin, Vue.js",
 		"codeLanguage": "Kotlin, Vue.js",
-		"image": "project2.jpg",
 		"url": "https://www.google.com",
 		"year": "2024"
 	},
@@ -25,7 +27,6 @@
 		"name": "GameWatchers",
 		"description": "Laravel",
 		"codeLanguage": "Laravel",
-		"image": "project3.jpg",
 		"url": "https://www.google.com",
 		"year": "2024"
 	},
@@ -34,7 +35,6 @@
 		"name": "ChargeFinder",
 		"description": "This is a project",
 		"codeLanguage": "SWIFT",
-		"image": "project4.jpg",
 		"url": "https://www.google.com",
 		"year": "2024"
 	}
