@@ -40,10 +40,6 @@
 }
 
 @media (max-width: 480px) {
-	.introText {
-		font-size: 1.5rem; /* Even smaller font size for mobile devices */
-		margin: 20px 20px;
-	}
 
 	.Text{
 		font-size: 1.5rem;
@@ -51,5 +47,17 @@
 
 	.buttons button{
 		margin-right: 20px;
+	}
+}
+
+
+@media (max-width: 400px){
+	.Text{
+		font-size: 1.2rem;
+	}
+
+	.IntroText{
+		font-size: 1rem;
+		margin: 20px 40px;
 	}
 }
