@@ -46,6 +46,12 @@
     color: #212121;
 }
 
+@media (max-width: 768px) {
+    .navbar{
+       display: none;
+    }
+}
+
 @media (max-width: 480px) {
     .navbar{
         display: none;
