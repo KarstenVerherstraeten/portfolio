@@ -61,7 +61,7 @@ function Projects() {
 			</div>
 			
 			<div>
-			<button onClick={toggleProjects}>
+			<button id="projecButton" onClick={toggleProjects}>
 				{showMore ? "Show more" : "Show less"}
 			</button>
 			</div>
