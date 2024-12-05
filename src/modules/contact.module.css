@@ -92,10 +92,18 @@ form button{
 }
 
 @media (max-width: 768px) {
+    .contact {
+        padding: 0px 50px;
+        padding-bottom: 40px;
+    }
   
     .form{
         display: flex;
         flex-direction: column;
+    }
+
+    textarea{
+        margin-top: 40px;
     }
     
 }

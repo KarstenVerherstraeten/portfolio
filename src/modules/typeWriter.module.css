@@ -33,9 +33,17 @@
 
 
 @media (max-width: 768px) {
-	.introText {
-		font-size: 2rem; /* Smaller font size for tablet or smaller screens */
+
+	.header{
+		height: 70vh;
+	}
+	.IntroText {
+		font-size: 1.1rem; /* Smaller font size for tablet or smaller screens */
 		margin: 40px 50px; /* Adjust margins for smaller screens */
+	}
+
+	.Text{
+		font-size: 1.7rem;
 	}
 }
 

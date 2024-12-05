@@ -104,6 +104,17 @@
     margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+  .Skills {
+		padding: 0px 50px;
+	}
+
+  .skillList {
+    align-items: center; /* Center align items */
+  }
+}
+
+
 @media (max-width: 480px) {
   .Skills {
       padding: 0px 40px;

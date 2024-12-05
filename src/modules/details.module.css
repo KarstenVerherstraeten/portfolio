@@ -164,6 +164,13 @@ i{
 	right: 10px;
 }
 
+@media (max-width: 1024px){
+  .DetailedView {
+		padding: 0px 50px;
+	}
+    
+}
+
 @media (max-width: 480px){
     .DetailedView{
         padding: 0px 40px;
