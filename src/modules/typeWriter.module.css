@@ -48,4 +48,8 @@
 	.Text{
 		font-size: 1.5rem;
 	}
+
+	.buttons button{
+		margin-right: 20px;
+	}
 }
