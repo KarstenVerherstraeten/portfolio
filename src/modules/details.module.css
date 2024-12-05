@@ -3,6 +3,11 @@
 	src: url(../assets/fonts/CascadiaMonoPL-Regular.otf);
 }
 
+i{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 .DetailedView{
     display: flex;
     flex-direction: column;
@@ -10,22 +15,37 @@
     padding: 0px 100px;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.detailsWrapper{
+    display: flex;
+    flex-direction: row;
+}
 .DetailedView p{
     color: white;
     font-family: "Roboto", sans-serif;
  
 }
 
+.info{
+    margin-bottom: 30px;
+}
 
 .top{
     display: flex;
     flex-direction: column;
 }
 
-.date{
-    display: flex;
-    flex-direction: row;
-}
 
 .Title{
     font-size: 2rem;
@@ -40,14 +60,103 @@
     width: 300px;
 }
 
-.info p{
-margin-top: 0px;
-}
-
-
 .gitURL{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #74C5BC;
     font-family: 'mono pl';
+   
+}
+
+.skills {
+    margin-top: 30px;
+  }
+  
+  .skills h3 {
+    color: #74c5bc;
+    font-family: "Mono Pl";
+    font-size: 16px;
+    text-align: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skillItem {
+    display: flex;
+    align-items: center;
+    background-color: #1c1b1b; /* Slightly darker for contrast */
+    margin: 10px 10px;
+    padding: 20px 15px;
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #2a2a2a; /* Subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .skillItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  .skillIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .skillItem span {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .viewMoreButton {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 120px;
+    font-size: 16px;
+}
+
+
+/* carrousel */
+
+.carousel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+    margin-top: 20px;
+}
+
+.projectImage {
+	max-width: 100%;
+	height: auto;
+}
+
+.prevButton,
+.nextButton {
+	background-color: transparent;
+	border: none;
+	font-size: 2rem;
+	cursor: pointer;
+	color: #74c5bc;
+	position: absolute;
+}
+
+.prevButton {
+	left: 10px;
+}
+
+.nextButton {
+	right: 10px;
 }
