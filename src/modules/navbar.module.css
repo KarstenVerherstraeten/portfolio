@@ -45,3 +45,9 @@
     background-color: #74C5BC;
     color: #212121;
 }
+
+@media (max-width: 480px) {
+    .navbar{
+        display: none;
+    }
+}
