@@ -60,10 +60,12 @@ function Projects() {
 			})}
 			</div>
 			
-
+			<div>
 			<button onClick={toggleProjects}>
 				{showMore ? "Show more" : "Show less"}
 			</button>
+			</div>
+			
 		</div>
 	);
 }

@@ -7,3 +7,14 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.dynamicMargin {
+  margin-left: 400px;
+  display: inline-block; /* Ensures margin works as expected */
+}
+
+@media (max-width: 480px) {
+  .dynamicMargin {
+    margin-left: 50px; /* Adjust this value to your needs */
+  }
+}
