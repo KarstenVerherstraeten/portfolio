@@ -10,29 +10,57 @@
 			document.head.appendChild(favicon);
 		</script>
 
-		<!-- font styles -->
+		<!-- SEO Enhancements -->
+		<link rel="canonical" href="https://www.example.com/" />
+		<meta property="og:title" content="Karsten Verherstraeten - Full-Stack Developer" />
+		<meta property="og:description" content="Karsten Verherstraeten is a full-stack developer with a passion for creating beautiful and functional websites." />
+		<meta property="og:url" content="https://www.example.com/" />
+		<meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Karsten Verherstraeten" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Karsten Verherstraeten - Full-Stack Developer" />
+		<meta name="twitter:description" content="Karsten Verherstraeten is a full-stack developer with a passion for creating beautiful and functional websites." />
+		<meta name="twitter:image" content="%PUBLIC_URL%/og-image.jpg" />
+		<meta name="twitter:site" content="@YourTwitterHandle" />
+
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Karsten Verherstraeten",
+			"jobTitle": "Full-Stack Developer",
+			"url": "https://www.example.com/",
+			"sameAs": [
+				"https://github.com/your-profile",
+				"https://linkedin.com/in/your-profile",
+				"https://twitter.com/your-profile"
+			]
+		}
+		</script>
+
+		<!-- Font Styles -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
 			rel="stylesheet"
 		/>
-
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
-		<!-- default -->
+		<!-- Default -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
-		<meta
-			name="description"
-			content="Web site created using create-react-app"
-		/>
+		<meta name="description" content="Karsten Verherstraeten is a full-stack developer with a passion for creating beautiful and functional websites." />
+		<meta name="keywords" content="Karsten Verherstraeten, full-stack developer, web developer, web designer, portfolio" />
+		<meta name="author" content="Karsten Verherstraeten" />
+		<meta name="robots" content="index, follow" />
+
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 		<title>Karsten Verherstraeten</title>
 	</head>

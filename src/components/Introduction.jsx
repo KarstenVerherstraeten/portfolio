@@ -37,7 +37,7 @@ function Introduction() {
 
 				<div className={style.Side}>
 					<div className={style.sidePiece}>
-						<p>Side Projects</p>
+						<p>Personal Projects</p>
 						<ul>
 							<li>RateScout</li>
 							<li>Fortnite UEFN</li>
@@ -51,6 +51,7 @@ function Introduction() {
 									href="https://www.linkedin.com/in/karsten-verherstraeten-4a329a26b/"
 									target="_blank"
 									rel="noreferrer"
+									title="LinkedIn"
 								>
 									LinkedIn
 								</a>
@@ -60,6 +61,7 @@ function Introduction() {
 									href="https://github.com/KarstenVerherstraeten"
 									target="_blank"
 									rel="noreferrer"
+									title="GitHub"
 								>
 									GitHub
 								</a>
