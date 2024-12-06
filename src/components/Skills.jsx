@@ -39,7 +39,7 @@ function Skills() {
   return (
     <div id="Skills" className={style.Skills}>
       <div className={style.Title}>
-        <p>Skills</p>
+        <h2>Skills</h2>
       </div>
       <div className={style.Search}>
         <div className={style.FilterBox}>

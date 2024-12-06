@@ -16,7 +16,7 @@ const ContactForm = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const res = await fetch("http://localhost:5003/send", {
+			const res = await fetch("https://portfolio-mhiy.onrender.com/send", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
@@ -32,7 +32,7 @@ const ContactForm = () => {
 	return (
 		<div id="Contact" className={style.contact}>
 			<div className={style.Title}>
-				<p>Contact me</p>
+			<h2>Contact</h2>
 			</div>
 
 			<form onSubmit={handleSubmit}>

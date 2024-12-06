@@ -33,7 +33,7 @@ function Projects() {
 	return (
 		<div id="Projects" className={style.Projects}>
 			<div className={style.Title}>
-				<p>Projects</p>
+			<h2>Projects</h2>
 			</div>
 
 			<div className={style.ProjectCards}>

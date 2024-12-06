@@ -4,7 +4,7 @@ function Introduction() {
 	return (
 		<div id="AboutMe" className={style.Introduction}>
 			<div className={style.Title}>
-				<p>About me</p>
+				<h2>About me</h2>
 			</div>
 
 			<div className={style.Content}>
