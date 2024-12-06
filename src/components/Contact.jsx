@@ -72,7 +72,7 @@ const ContactForm = () => {
 					></i>
 				</button>
 			</form>
-			{response && <p>{response}</p>}
+			{response && <p className={style.response}>{response}</p>}
 		</div>
 	);
 };

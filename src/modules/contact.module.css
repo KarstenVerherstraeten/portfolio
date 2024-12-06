@@ -91,6 +91,14 @@ form button{
     cursor: pointer;
 }
 
+.response{
+    color: black;
+    font-family: "Mono Pl";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 @media (max-width: 768px) {
     .contact {
         padding: 0px 50px;
@@ -104,6 +112,10 @@ form button{
 
     textarea{
         margin-top: 40px;
+    }
+
+    .response{
+        margin-top: 20px;
     }
     
 }
@@ -125,5 +137,10 @@ form button{
 
  textarea{
         margin-top: 40px;
+    }
+
+    .response{
+        margin-top: 20px;
+        font-size: 14px;
     }
 }
