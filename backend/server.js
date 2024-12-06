@@ -37,6 +37,10 @@ app.post('/send', (req, res) => {
   });
 });
 
+app.get('/keep-alive', (req, res) => {
+  res.status(200).send('Server is alive');
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
