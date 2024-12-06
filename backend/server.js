@@ -39,6 +39,7 @@ app.post('/send', (req, res) => {
 
 app.get('/keep-alive', (req, res) => {
   res.status(200).send('Server is alive');
+  console.log('Server is pinged at', new Date().toLocaleString());
 });
 
 app.listen(PORT, () => {
