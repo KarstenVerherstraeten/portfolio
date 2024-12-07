@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #181516;
+    color: #74c5bc;
+    text-align: center;
+    font-family: "Gotham Bold",Arial, sans-serif;
+    padding: 0 20px;
+  }
+  
+  .header {
+    font-size: 6em;
+    margin: 0;
+  }
+  
+  .subHeader {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .paragraph {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .link {
+  background: none;
+	border-style: none;
+  text-decoration: none;
+	border-bottom: 2px solid #74c5bc;
+	color: white;
+	font-family: "Mono Pl";
+	font-size: 20px;
+	margin-top: 40px;
+	padding: 10px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+ .link:hover{
+  transform: scale(1.1);
+	transition: transform 0.3s ease-in-out;
+ }
+  

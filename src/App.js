@@ -4,6 +4,7 @@ import "./App.css";
 
 import Home from "./components/Home";
 import DetailedView from "./components/DetailedView";
+import PageNotFound from "./components/PageNotFound";
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/detailedView/:id" element={<DetailedView />} />{" "}
+				<Route path="*" element={<PageNotFound />} /> {/* 404 page */}
 			</Routes>
 		</Router>
 	);
