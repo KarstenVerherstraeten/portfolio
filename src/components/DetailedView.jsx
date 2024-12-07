@@ -71,7 +71,7 @@ function DetailedView() {
 
 	const projectImagePath = (image) => {
 		try {
-			return require(`../assets/ProjectBanners/${image}`);
+			return require(`../assets/projects/${project.name}/${image}`);
 		} catch (error) {
 			console.error("Image not found:", image);
 			return require("../assets/ProjectBanners/placeholder.png");
