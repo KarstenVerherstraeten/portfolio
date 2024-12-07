@@ -56,7 +56,7 @@
 		"description": "I decided to combine my love for music with technology by creating a jukebox using Spotify's extensive but strict APIs. Initially, I attempted to build the project in React, but the challenge stemmed from understanding Spotify's API documentation rather than the framework itself. To simplify, I started fresh with vanilla JavaScript for the frontend and a Node.js-based backend using Express, dotenv, CORS, and Axios. After thoroughly reviewing Spotify's documentation and following the necessary steps, I successfully retrieved my playlist. Implementing the playback system proved tricky due to licensing requirements that needed to be passed to my web application. Despite these challenges, the end result after five days is something I’m proud of. The jukebox now allows users to select songs, pause, and resume playback seamlessly.",
 		"codeLanguage": ["HTML, ", "CSS, ", "JavaScript, ", "SpotifyAPI"],
 		"image": "Jukebox.png",
-		"images": ["Jukebox.png", "Jukebox.png", "Jukebox.png", "Jukebox.png"],
+		"images": ["Jukebox.png"],
 		"githubLink": "https://github.com/KarstenVerherstraeten/jukebox-vanilla",
 		"year": "2024",
 		"from": "Nov 19",
