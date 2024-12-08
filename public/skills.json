@@ -90,5 +90,25 @@
         "name": "Adobe XD",
         "level": 3,
         "image": "/skillIcons/Adobe_XD.svg"
+    },
+    {
+        "name": "Express",
+        "level": 3,
+        "image": "/skillIcons/Expressjs.png"
+    },
+    {
+        "name": "Django",
+        "level": 2,
+        "image": "/skillIcons/django.png"
+    },
+    {
+        "name": "SpotifyAPI",
+        "level": 2,
+        "image": "/skillIcons/spotify.svg"
+    },
+    {
+        "name": "websocket",
+        "level": 2,
+        "image": "/skillIcons/websocket.svg"
     }
 ]
